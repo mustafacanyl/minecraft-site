@@ -1,0 +1,233 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+	<head>
+		<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Fırat KAYA">
+<link rel="shortcut icon" type="image/x-icon" href="apps/main/public/assets/img/extras/favicon.png">
+
+<title>Rudy Craft - Kalitenin Tek Adresi</title>
+
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="canonical" href="index.htm">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Rudy Craft - Kalitenin Tek Adresi">
+<meta property="og:description" content="">
+<meta property="og:url" content="https://www.rudycraft.com">
+<meta property="og:site_name" content="Rudy Craft">
+
+<!-- MAIN -->
+<link rel="stylesheet" href="ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- EXTRAS -->
+<link rel="stylesheet" href="ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.min.css">
+<link rel="stylesheet" href="ajax/libs/select2/4.0.13/css/select2.min.css">
+<link rel="stylesheet" href="npm/@ttskch/select2-bootstrap4-theme@1.4.0/dist/select2-bootstrap4.min.css">
+
+<!-- FONTS -->
+<link rel="stylesheet" href="ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- THEMES -->
+<link rel="stylesheet" type="text/css" href="apps/main/public/assets/css/themes/flat/main.min.css?v=527">
+<link rel="stylesheet" type="text/css" href="apps/main/public/assets/css/themes/flat/responsive.min.css?v=527">
+	</head>
+	<body style="overflow: auto;">
+		<header class="header sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-dark shadow-none">
+    <div class="container">
+      <a class="navbar-brand " href="index.htm">
+                  Rudy Craft              </a>
+      <button class="navbar-toggler p-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="navbarSupportedContent">
+        <ul class="nav navbar-nav mx-auto text-center">
+                                                          <li class="nav-item ">
+                <a class="nav-link" href="index.htm"><i class="fa fa-home"></i> Ana Sayfa</a>
+              </li>
+                                                                        <li class="nav-item ">
+                <a class="nav-link" href="magaza/opskyblock.html"><i class="fa fa-shopping-cart"></i> Mağaza</a>
+              </li>
+                                                                        <li class="nav-item ">
+                <a class="nav-link" href="giris-yap.html"><i class="fa fa-try"></i> Kredi Yükle</a>
+              </li>
+                                                                        <li class="nav-item ">
+                <a class="nav-link" href="siralama.html"><i class="fa fa-trophy"></i> Sıralama</a>
+              </li>
+                                                                                                  <li class="nav-item ">
+                <a class="nav-link" href="giris-yap.html"><i class="fa fa-life-ring"></i> Destek</a>
+              </li>
+                                                                        <li class="nav-item ">
+                <a class="nav-link" href="indir.html"><i class="fa fa-download"></i> İndir</a>
+              </li>
+                                                        <li class="nav-item mobil ">
+              <a class="nav-link" href="giris-yap.html">
+                <i class="fa fa-sign-in"></i>
+                <span>Giriş Yap</span>
+              </a>
+            </li>
+            <li class="nav-item mobil ">
+              <a class="nav-link" href="kayit-ol.html">
+                <i class="fa fa-user-plus"></i>
+                <span>Kayıt Ol</span>
+              </a>
+            </li>
+                    <li class="nav-item mobil">
+            <a class="nav-link" href="#" style="background-color: transparent !important; border-color: transparent !important;">
+              <form action="" method="post">
+                <div class="input-group mb-2">
+                  <input type="text" name="search" placeholder="Oyuncu Ara" class="form-control" aria-label="Oyuncu Ara" aria-describedby="basic-addon2" required="required">
+                  <div class="input-group-append">
+                    <button type="submit" name="searchAccount" class="theme-color btn btn-primary">Ara</button>
+                  </div>
+                </div>
+              </form>
+            </a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right navbar-buttons flex-row justify-content-center flex-nowrap">
+                      <li class="nav-item pc">
+              <a class="nav-link" href="giris-yap.html">Giriş Yap</a>
+            </li>
+            <li class="nav-item pc active">
+              <a class="nav-link" href="kayit-ol.html">Kayıt Ol</a>
+            </li>
+                    <li class="nav-item nav-search pc">
+            <a class="nav-link" href="#">
+              <form action="" method="post">
+                <div class="searchbar">
+                  <input class="search-input" type="text" name="search" placeholder="Oyuncu Ara" autocomplete="off" required="required">
+                  <button type="submit" name="searchAccount" class="theme-color btn search-icon">
+                    <i class="fa fa-search"></i>
+                  </button>
+                </div>
+              </form>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <nav class="navbar navbar-server" data-toggle="onlinebox">
+    <div class="container">
+      <div class="navbar-online">
+        Çevrimiçi: <span data-toggle="onlinetext" server-ip="PLAY.RUDYCRAFT.COM">-/-</span>
+      </div>
+      <div class="navbar-ip" data-toggle="copyip" data-clipboard-action="copy" data-clipboard-text="PLAY.RUDYCRAFT.COM">
+        <span class="py-2" data-toggle="tooltip" data-placement="bottom" title="Sunucu Adresini Kopyala">
+          PLAY.RUDYCRAFT.COM        </span>
+      </div>
+      <div class="navbar-version">
+        Sürüm: 1.8-1.16      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- Preloader -->
+		<main class="main" role="main">
+			<section class="section page-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.htm">Ana Sayfa</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Kurallar</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-header">
+            Kurallar
+          </div>
+          <div class="card-body">
+            <p style="text-align: center;"><strong><span style="font-size: 30px;">Kullanım Şartları</span></strong></p><p>Rudy&#39;in hizmetlerinden herhangi birini kullanarak veya bunlara erişerek, Rudy&#39;in Şartlar ve Koşullarını kabul etmiş olursunuz. Şartlar ve koşulların herhangi birine uymadığınız takdirde, bu siteyi ve/veya hizmetlerimizin tamamını kullanmanız veya bunlara erişmeniz yasaktır.</p><p><br></p><p style="text-align: center;"><span style="font-size: 30px;"><strong>Ticari markalar ve telif hakları</strong></span></p><p>Minecraft i&ccedil;eriği ve materyalleri, Mojang AB veya lisans verenlerinin ticari markaları ve telif haklarıdır. T&uuml;m hakları saklıdır. Bu site Rudy Craft&#39;ın bir par&ccedil;asıdır ve Mojang AB&#39;ye bağlı değildir.</p><p><br></p><p style="text-align: center;"><span style="font-size: 30px;"><strong>Kayıt</strong></span></p><p>Herhangi bir Rudy Craft hizmetine kaydolarak şu şartlar ve koşulları kabul etmiş sayılırsınız:</p><p><br></p><p>Rudy, herhangi bir kullanıcı adını reddetme veya engelleme hakkını saklı tutar.</p><p><br></p><p style="text-align: center;"><span style="font-size: 30px;">H&uuml;k&uuml;m ve Koşulların Değiştirilmesi</span></p><p>Bu h&uuml;k&uuml;m ve koşulları zaman zaman &ouml;nceden bildirmeksizin değiştirme hakkımız saklıdır. Değişikliklerden haberdar olmak i&ccedil;in bu Kullanıcı S&ouml;zleşmesini periyodik olarak g&ouml;zden ge&ccedil;irmenin sizin sorumluluğunuz olduğunu kabul edersiniz. Bu t&uuml;r değişiklikler sonrasında bu siteyi kullanmaya devam etmeniz, değiştirilen h&uuml;k&uuml;m ve koşulların onaylandığını ve kabul edildiği anlamına gelir.</p><p><br></p><p style="text-align: center;"><span style="font-size: 30px;">Kullanıcı S&ouml;zleşmesi</span></p><p>Belirlenen herhangi bir &uuml;r&uuml;n&uuml; fiyatını, &ouml;nceden haber vermeksizin veya bildirmeden değiştirme hakkımız saklıdır. Ayrıca belirli bir &uuml;r&uuml;n&uuml;n i&ccedil;eriğini değiştirme hakkını saklı tutuyoruz - belirli bir &uuml;r&uuml;n&uuml;n &ouml;zellikleri değişebilir ve eğer değiştirirsek eski &uuml;r&uuml;n &ouml;zelliklerine sahip olamayacaksınız. &Uuml;r&uuml;n &ouml;zelliklerinin veya marketteki herhangi bir &ouml;ğenin ge&ccedil;erli bir sunucu dengeleme nedeni olmadan değiştirilmeyeceğinden emin olabilirsiniz.</p><p><br></p><p>Personeli, sahipleri, bilişim sahiplerini, reklamverenleri, memurları, y&ouml;neticileri, &ccedil;alışanları, ortakları ve bu sunucunun personeli ile ilgili diğer t&uuml;m taraflarına tazmin etmeyi kabul edersiniz. Bu şartları kabul ederek, satın alma işleminizle ilgili olsun veya olmasın, sunucu personeline herhangi bir dava a&ccedil;mamayı veya başka bir yasal zorluğa girmemeyi kabul edersiniz.</p><p><br></p><p>Bu web sitesini ve sunduğunuz hizmetlerin veya i&ccedil;eriğin kullanımının kendi sorumluluğunuzda olduğunu ve size sunduğunu anlıyor ve kabul ediyorsunuz. Size olduğu gibi sağlanmıştır ve satılabilirlik, belirli bir amaca uygunluk ve ihlal edilmeme garantileri dahil ancak bunlarla sınırlı olmamak &uuml;zere, a&ccedil;ık veya zımni her t&uuml;rl&uuml; garantiyi a&ccedil;ık&ccedil;a reddederiz. Ne biz ne de hizmete katılan herhangi birinin herhangi bir şekilde profesyonel tavsiye sağladığını ve dolayısıyla bu t&uuml;r tavsiyelerin veya herhangi bir bilginin kullanılmasının sadece kendi sorumluluğunuzda olduğunu ve hi&ccedil;bir şekilde sorumluluğumuz olmadığını anlıyor ve kabul ediyorsunuz. Bazı yargı b&ouml;lgeleri, zımni garantilerin feragatnamelerine izin vermeyebilir ve yukarıdaki feragatname yalnızca zımni garantilerle ilgili olduğu i&ccedil;in sizin i&ccedil;in ge&ccedil;erli olmayabilir.</p><p><br></p><p>K&acirc;r, zarar, şerefiye, kullanım, veri veya diğer maddi olmayan zararlar da dahil, ancak bunlarla sınırlı olmamak &uuml;zere doğrudan, dolaylı, &ouml;zel, tesad&uuml;fi, dolaylı veya &ouml;rnek niteliğindeki zararlardan sorumlu olmayacağımızı a&ccedil;ık&ccedil;a anlıyor ve kabul ediyorsunuz. (I) Hizmetin kullanımı veya yetersizliği, (II) Hizmetten yararlanılması veya kullanılmaması, (II) Girilen herhangi bir işlemden kaynaklanan ikame mal ve / veya hizmetlerin yerine getirilmesinin maliyeti. (III) Veri iletimlerinize izinsiz erişilmesi veya değiştirilmesi, (IV) Hizmetle ilgili herhangi bir &uuml;&ccedil;&uuml;nc&uuml; tarafın ifadeleri veya davranışları veya (V) hizmetle ilgili diğer hususlar. Belgedeki şartları kabul ederek, personel, y&ouml;netim, y&ouml;neticiler, &uuml;yeler, mal sahipleri veya bu sunucunun herhangi bir ana bilgisayarı ile ilgili herhangi bir kimseye veya herhangi bir şeye karşı herhangi bir işlem yapma hakkını kullanmaktan da feragat ettiğinizi unutmayın. Ayrıca, bu belgenin herhangi bir kısmının ge&ccedil;ersiz olduğu veya uygulanamaz olduğu tespit edilirse, ge&ccedil;ersiz olduğu veya uygulanamayan par&ccedil;aların tamamen ge&ccedil;erli ve bağlayıcı olacağı kabul edilir.</p><p><br></p><p>T&uuml;m &ccedil;alışanlar uygun izinlerle, sizi zorla bırakmadan, kalıcı veya ge&ccedil;ici olarak, sizi engelleme veya erişiminizi kısıtlama hakkını saklı tutar. Kurallara uyarsanız, hi&ccedil;bir zaman yasaklanmayacaksınız, sade ve basit.</p><p><br></p><p>Rudy Craft&#39;&uuml;n sahip olduğu sunucularda ve oyunlarda kaydedilmiş i&ccedil;eriklerde herhangi bir korkun&ccedil; hack, sızıntı, iftira veya k&ouml;t&uuml; niyetli davranış kullanılamaz. S&ouml;z konusu kuralları ihlal eden i&ccedil;erik i&ccedil;in, Rudy Craft&#39;e yaratılan herhangi bir &ccedil;alışmayla ilgili t&uuml;m hakları geri alınamaz bir şekilde verirsiniz ve ahlaki haklar dahil olmak &uuml;zere t&uuml;m haklarınızdan feragat edersiniz veya aldatma veya diğer k&ouml;t&uuml; niyetli ve yıkıcı faaliyetler i&ccedil;eren i&ccedil;eriğe ve t&uuml;m &ouml;nceki haklarınızın sizin hakkınızda olduğunu anlarsınız. S&ouml;z konusu i&ccedil;erik kaybedilmiş olsa bile.</p><p><br></p><p style="text-align: center;"><span style="font-size: 30px;">Geri &ouml;deme politikası</span></p><p>T&uuml;m satışlar kesindir, iade yapamaz, durduramaz, sunucuyu &ouml;demenizi geri &ouml;demesi i&ccedil;in geri almak i&ccedil;in gerekli herhangi bir yolla kredilendiremezsiniz. Bunu yaparken sunucu/forumlarda devam etmekte olan hesabınıza izin vermeme ve başka kredi y&uuml;kleme işlemlerinin eklenmesine veya alınmasına izin vermeme hakkımızı saklı tutarız. Zorla geri &ouml;deme durumunda tazminat almak i&ccedil;in gerekli yasal veya tahsil işlemlerini yapma hakkımızı saklı tutarız.</p>          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+		</main>
+		<footer class="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 mb-5 mb-md-0">
+          <h5 class="footer-title">Hakkımızda</h5>
+          <p class="mb-0">
+                          Yönetici Panelinden bu yazıyı düzenleyebilirsiniz.
+                      </p>
+        </div>
+        <div class="col-6 col-md-2">
+          <h5 class="footer-title">Hızlı Menü</h5>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2">
+              <a href="index.htm">Ana Sayfa</a>
+            </li>
+            <li class="mb-2">
+              <a href="magaza/opskyblock.html">Mağaza</a>
+            </li>
+            <li class="mb-2">
+              <a href="giris-yap.html">Kredi Yükle</a>
+            </li>
+                          <li class="mb-2">
+                <a href="giris-yap.html">Giriş Yap</a>
+              </li>
+              <li class="mb-2">
+                <a href="kayit-ol.html">Kayıt Ol</a>
+              </li>
+                      </ul>
+        </div>
+        <div class="col-6 col-md-2">
+          <h5 class="footer-title">Sosyal Medya</h5>
+          <ul class="list-unstyled mb-0">
+                          <li>Yönetici Panelinden sosyal medya butonlarını ekleyebilirsin.</li>
+                      </ul>
+        </div>
+        <div class="col-md-3 mt-5 mt-md-0">
+          <h5 class="footer-title">İletişim</h5>
+          <ul class="list-unstyled mb-0">
+                          <li>Yönetici Panelinden iletişim seçeneklerini ekleyebilirsin.</li>
+                      </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md text-center text-md-left mb-2 mb-md-0">
+          Tüm hakları saklıdır &copy; 2020        </div>
+        <div class="col-12 col-md-auto text-center text-md-left">
+          <copyright data-toggle="tooltip" data-placement="top" title="Yazılım: FIRAT KAYA">
+            <a href="https://www.leaderos.com.tr/" rel="external">
+              LEADEROS v5.2.7            </a>
+          </copyright>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+		<script src="ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+<script src="ajax/libs/scrollup/2.4.1/jquery.scrollUp.min.js"></script>
+<script src="ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
+<script src="ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.min.js"></script>
+<script src="ajax/libs/vanilla-lazyload/16.1.0/lazyload.min.js"></script>
+<script src="ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+<script src="ajax/libs/select2/4.0.13/js/i18n/tr.min.js"></script>
+<script type="text/javascript">
+  var $onlineAPI = 1;
+  var $preloaderStatus = 'false';
+</script>
+<script src="apps/main/public/assets/js/main.min.js?v=527"></script>
+
+
+	</body>
+</html>

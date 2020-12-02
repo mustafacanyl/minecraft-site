@@ -1,0 +1,132 @@
+Uri: https://www.rudycraft.com/
+File Name: C:\Downloaded Web Sites\www.rudycraft.com\index.htm
+Content Type: text/html
+
+Uri: https://www.rudycraft.com/apps/main/public/assets/img/extras/favicon.png
+File Name: C:\Downloaded Web Sites\www.rudycraft.com\apps\main\public\assets\img\extras\favicon.png
+Content Type: image/png
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\www.rudycraft.com\ajax\libs\twitter-bootstrap\4.5.2\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.min.css
+File Name: C:\Downloaded Web Sites\www.rudycraft.com\ajax\libs\limonte-sweetalert2\8.11.8\sweetalert2.min.css
+Content Type: text/css
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css
+File Name: C:\Downloaded Web Sites\www.rudycraft.com\ajax\libs\select2\4.0.13\css\select2.min.css
+Content Type: text/css
+
+Uri: https://cdn.jsdelivr.net/npm/@ttskch/select2-bootstrap4-theme@1.4.0/dist/select2-bootstrap4.min.css
+File Name: C:\Downloaded Web Sites\www.rudycraft.com\npm\@ttskch\select2-bootstrap4-theme@1.4.0\dist\select2-bootstrap4.min.css
+Content Type: text/css
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+File Name: C:\Downloaded Web Sites\www.rudycraft.com\ajax\libs\font-awesome\4.7.0\css\font-awesome.min.css
+Content Type: text/css
+
+Uri: https://www.rudycraft.com/apps/main/public/assets/css/themes/flat/main.min.css?v=527
+File Name: C:\Downloaded Web Sites\www.rudycraft.com\apps\main\public\assets\css\themes\flat\main.min.css
+Content Type: text/css
+
+Uri: https://www.rudycraft.com/apps/main/public/assets/css/themes/flat/responsive.min.css?v=527
+File Name: C:\Downloaded Web Sites\www.rudycraft.com\apps\main\public\assets\css\themes\flat\responsive.min.css
+Content Type: text/css
+
+Uri: https://www.rudycraft.com/siralama
+File Name: C:\Downloaded Web Sites\www.rudycraft.com\siralama.html
+Content Type: text/html
+
+Uri: https://www.rudycraft.com/indir
+File Name: C:\Downloaded Web Sites\www.rudycraft.com\indir.html
+Content Type: text/html
+
+Uri: https://www.rudycraft.com/giris-yap
+File Name: C:\Downloaded Web Sites\www.rudycraft.com\giris-yap.html
+Content Type: text/html
+
+Uri: https://www.rudycraft.com/kayit-ol
+File Name: C:\Downloaded Web Sites\www.rudycraft.com\kayit-ol.html
+Content Type: text/html
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js
+File Name: C:\Downloaded Web Sites\www.rudycraft.com\ajax\libs\jquery\3.5.1\jquery.min.js
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js
+File Name: C:\Downloaded Web Sites\www.rudycraft.com\ajax\libs\twitter-bootstrap\4.5.2\js\bootstrap.bundle.min.js
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/scrollup/2.4.1/jquery.scrollUp.min.js
+File Name: C:\Downloaded Web Sites\www.rudycraft.com\ajax\libs\scrollup\2.4.1\jquery.scrollUp.min.js
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js
+File Name: C:\Downloaded Web Sites\www.rudycraft.com\ajax\libs\clipboard.js\2.0.6\clipboard.min.js
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.min.js
+File Name: C:\Downloaded Web Sites\www.rudycraft.com\ajax\libs\limonte-sweetalert2\8.11.8\sweetalert2.min.js
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/16.1.0/lazyload.min.js
+File Name: C:\Downloaded Web Sites\www.rudycraft.com\ajax\libs\vanilla-lazyload\16.1.0\lazyload.min.js
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js
+File Name: C:\Downloaded Web Sites\www.rudycraft.com\ajax\libs\select2\4.0.13\js\select2.min.js
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/i18n/tr.min.js
+File Name: C:\Downloaded Web Sites\www.rudycraft.com\ajax\libs\select2\4.0.13\js\i18n\tr.min.js
+Content Type: application/javascript
+
+Uri: https://www.rudycraft.com/apps/main/public/assets/js/main.min.js?v=527
+File Name: C:\Downloaded Web Sites\www.rudycraft.com\apps\main\public\assets\js\main.min.js
+Content Type: application/javascript
+
+Uri: https://www.rudycraft.com/apps/main/public/assets/img/loaders/iframe.gif
+File Name: C:\Downloaded Web Sites\www.rudycraft.com\apps\main\public\assets\img\loaders\iframe.gif
+Content Type: image/gif
+
+Uri: https://www.rudycraft.com/apps/main/public/assets/img/extras/profile.png
+File Name: C:\Downloaded Web Sites\www.rudycraft.com\apps\main\public\assets\img\extras\profile.png
+Content Type: image/png
+
+Uri: https://www.rudycraft.com/magaza/opskyblock
+File Name: C:\Downloaded Web Sites\www.rudycraft.com\magaza\opskyblock.html
+Content Type: text/html
+
+Uri: https://www.rudycraft.com/magaza/opskyblock/vip
+File Name: C:\Downloaded Web Sites\www.rudycraft.com\magaza\opskyblock\vip.html
+Content Type: text/html
+
+Uri: https://www.rudycraft.com/magaza/opskyblock/spawnerlar
+File Name: C:\Downloaded Web Sites\www.rudycraft.com\magaza\opskyblock\spawnerlar.html
+Content Type: text/html
+
+Uri: https://www.rudycraft.com/apps/main/public/assets/img/loaders/store.png
+File Name: C:\Downloaded Web Sites\www.rudycraft.com\apps\main\public\assets\img\loaders\store.png
+Content Type: image/png
+
+Uri: https://www.rudycraft.com/apps/main/public/assets/js/store.js?v=527
+File Name: C:\Downloaded Web Sites\www.rudycraft.com\apps\main\public\assets\js\store.js
+Content Type: application/javascript
+
+Uri: https://www.rudycraft.com/apps/main/public/assets/js/loader.js?v=527
+File Name: C:\Downloaded Web Sites\www.rudycraft.com\apps\main\public\assets\js\loader.js
+Content Type: application/javascript
+
+Uri: https://www.rudycraft.com/apps/main/public/assets/js/leaderboards.js?v=527
+File Name: C:\Downloaded Web Sites\www.rudycraft.com\apps\main\public\assets\js\leaderboards.js
+Content Type: application/javascript
+
+Uri: https://www.rudycraft.com/sifremi-unuttum
+File Name: C:\Downloaded Web Sites\www.rudycraft.com\sifremi-unuttum.html
+Content Type: text/html
+
+Uri: https://www.rudycraft.com/kurallar
+File Name: C:\Downloaded Web Sites\www.rudycraft.com\kurallar.html
+Content Type: text/html
+

@@ -1,0 +1,236 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+	<head>
+		<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Fırat KAYA">
+<link rel="shortcut icon" type="image/x-icon" href="apps/main/public/assets/img/extras/favicon.png">
+
+<title>Rudy Craft - Kalitenin Tek Adresi</title>
+
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="canonical" href="index.htm">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Rudy Craft - Kalitenin Tek Adresi">
+<meta property="og:description" content="">
+<meta property="og:url" content="https://www.rudycraft.com">
+<meta property="og:site_name" content="Rudy Craft">
+
+<!-- MAIN -->
+<link rel="stylesheet" href="ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- EXTRAS -->
+<link rel="stylesheet" href="ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.min.css">
+<link rel="stylesheet" href="ajax/libs/select2/4.0.13/css/select2.min.css">
+<link rel="stylesheet" href="npm/@ttskch/select2-bootstrap4-theme@1.4.0/dist/select2-bootstrap4.min.css">
+
+<!-- FONTS -->
+<link rel="stylesheet" href="ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- THEMES -->
+<link rel="stylesheet" type="text/css" href="apps/main/public/assets/css/themes/flat/main.min.css?v=527">
+<link rel="stylesheet" type="text/css" href="apps/main/public/assets/css/themes/flat/responsive.min.css?v=527">
+	</head>
+	<body style="overflow: auto;">
+		<header class="header sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-dark shadow-none">
+    <div class="container">
+      <a class="navbar-brand " href="index.htm">
+                  Rudy Craft              </a>
+      <button class="navbar-toggler p-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="navbarSupportedContent">
+        <ul class="nav navbar-nav mx-auto text-center">
+                                                          <li class="nav-item ">
+                <a class="nav-link" href="index.htm"><i class="fa fa-home"></i> Ana Sayfa</a>
+              </li>
+                                                                        <li class="nav-item ">
+                <a class="nav-link" href="magaza/opskyblock.html"><i class="fa fa-shopping-cart"></i> Mağaza</a>
+              </li>
+                                                                        <li class="nav-item ">
+                <a class="nav-link" href="giris-yap.html"><i class="fa fa-try"></i> Kredi Yükle</a>
+              </li>
+                                                                        <li class="nav-item ">
+                <a class="nav-link" href="siralama.html"><i class="fa fa-trophy"></i> Sıralama</a>
+              </li>
+                                                                                                  <li class="nav-item ">
+                <a class="nav-link" href="giris-yap.html"><i class="fa fa-life-ring"></i> Destek</a>
+              </li>
+                                                                        <li class="nav-item ">
+                <a class="nav-link" href="indir.html"><i class="fa fa-download"></i> İndir</a>
+              </li>
+                                                        <li class="nav-item mobil ">
+              <a class="nav-link" href="giris-yap.html">
+                <i class="fa fa-sign-in"></i>
+                <span>Giriş Yap</span>
+              </a>
+            </li>
+            <li class="nav-item mobil ">
+              <a class="nav-link" href="kayit-ol.html">
+                <i class="fa fa-user-plus"></i>
+                <span>Kayıt Ol</span>
+              </a>
+            </li>
+                    <li class="nav-item mobil">
+            <a class="nav-link" href="#" style="background-color: transparent !important; border-color: transparent !important;">
+              <form action="" method="post">
+                <div class="input-group mb-2">
+                  <input type="text" name="search" placeholder="Oyuncu Ara" class="form-control" aria-label="Oyuncu Ara" aria-describedby="basic-addon2" required="required">
+                  <div class="input-group-append">
+                    <button type="submit" name="searchAccount" class="theme-color btn btn-primary">Ara</button>
+                  </div>
+                </div>
+              </form>
+            </a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right navbar-buttons flex-row justify-content-center flex-nowrap">
+                      <li class="nav-item pc">
+              <a class="nav-link" href="giris-yap.html">Giriş Yap</a>
+            </li>
+            <li class="nav-item pc active">
+              <a class="nav-link" href="kayit-ol.html">Kayıt Ol</a>
+            </li>
+                    <li class="nav-item nav-search pc">
+            <a class="nav-link" href="#">
+              <form action="" method="post">
+                <div class="searchbar">
+                  <input class="search-input" type="text" name="search" placeholder="Oyuncu Ara" autocomplete="off" required="required">
+                  <button type="submit" name="searchAccount" class="theme-color btn search-icon">
+                    <i class="fa fa-search"></i>
+                  </button>
+                </div>
+              </form>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <nav class="navbar navbar-server" data-toggle="onlinebox">
+    <div class="container">
+      <div class="navbar-online">
+        Çevrimiçi: <span data-toggle="onlinetext" server-ip="PLAY.RUDYCRAFT.COM">-/-</span>
+      </div>
+      <div class="navbar-ip" data-toggle="copyip" data-clipboard-action="copy" data-clipboard-text="PLAY.RUDYCRAFT.COM">
+        <span class="py-2" data-toggle="tooltip" data-placement="bottom" title="Sunucu Adresini Kopyala">
+          PLAY.RUDYCRAFT.COM        </span>
+      </div>
+      <div class="navbar-version">
+        Sürüm: 1.8-1.16      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- Preloader -->
+		<main class="main" role="main">
+			<section class="section section-recover">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 offset-md-4">
+                            <div class="card">
+            <div class="card-header">
+              Şifremi Unuttum
+            </div>
+            <div class="card-body">
+              <form action="" method="post">
+                <div class="form-group">
+                  <input type="text" class="form-control" name="username" placeholder="Kullanıcı Adı">
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" name="email" placeholder="Email Adresi">
+                </div>
+                                <input type="hidden" name="csrf-token" value="10839a8e6220de04dc8ce2bd082b825cbd7f3684bbc3acfb78dc76438a076d5a">                <button type="submit" class="theme-color btn btn-primary w-100" name="sendEmail">Gönder</button>
+              </form>
+            </div>
+            <div class="card-footer text-center">
+              Şifreni hatırladın mı?
+              <a href="giris-yap.html">Giriş Yap</a>
+            </div>
+          </div>
+              </div>
+    </div>
+  </div>
+</section>
+		</main>
+		<footer class="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 mb-5 mb-md-0">
+          <h5 class="footer-title">Hakkımızda</h5>
+          <p class="mb-0">
+                          Yönetici Panelinden bu yazıyı düzenleyebilirsiniz.
+                      </p>
+        </div>
+        <div class="col-6 col-md-2">
+          <h5 class="footer-title">Hızlı Menü</h5>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2">
+              <a href="index.htm">Ana Sayfa</a>
+            </li>
+            <li class="mb-2">
+              <a href="magaza/opskyblock.html">Mağaza</a>
+            </li>
+            <li class="mb-2">
+              <a href="giris-yap.html">Kredi Yükle</a>
+            </li>
+                          <li class="mb-2">
+                <a href="giris-yap.html">Giriş Yap</a>
+              </li>
+              <li class="mb-2">
+                <a href="kayit-ol.html">Kayıt Ol</a>
+              </li>
+                      </ul>
+        </div>
+        <div class="col-6 col-md-2">
+          <h5 class="footer-title">Sosyal Medya</h5>
+          <ul class="list-unstyled mb-0">
+                          <li>Yönetici Panelinden sosyal medya butonlarını ekleyebilirsin.</li>
+                      </ul>
+        </div>
+        <div class="col-md-3 mt-5 mt-md-0">
+          <h5 class="footer-title">İletişim</h5>
+          <ul class="list-unstyled mb-0">
+                          <li>Yönetici Panelinden iletişim seçeneklerini ekleyebilirsin.</li>
+                      </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md text-center text-md-left mb-2 mb-md-0">
+          Tüm hakları saklıdır &copy; 2020        </div>
+        <div class="col-12 col-md-auto text-center text-md-left">
+          <copyright data-toggle="tooltip" data-placement="top" title="Yazılım: FIRAT KAYA">
+            <a href="https://www.leaderos.com.tr/" rel="external">
+              LEADEROS v5.2.7            </a>
+          </copyright>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+		<script src="ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+<script src="ajax/libs/scrollup/2.4.1/jquery.scrollUp.min.js"></script>
+<script src="ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
+<script src="ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.min.js"></script>
+<script src="ajax/libs/vanilla-lazyload/16.1.0/lazyload.min.js"></script>
+<script src="ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+<script src="ajax/libs/select2/4.0.13/js/i18n/tr.min.js"></script>
+<script type="text/javascript">
+  var $onlineAPI = 1;
+  var $preloaderStatus = 'false';
+</script>
+<script src="apps/main/public/assets/js/main.min.js?v=527"></script>
+
+
+	</body>
+</html>
